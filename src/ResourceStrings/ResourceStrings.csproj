@@ -8,7 +8,6 @@
     </PropertyGroup>
     <ItemGroup>
         <EmbeddedResource Include="Strings.xml" />
-        <EmbeddedResource Include="Hello.txt" />
     </ItemGroup>
     <ItemGroup>
         <Content Remove="Strings.xml" />
