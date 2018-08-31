@@ -11,6 +11,5 @@
     </ItemGroup>
     <ItemGroup>
         <Content Remove="Strings.xml" />
-        <Content Remove="Hello.txt" />
     </ItemGroup>
 </Project>
