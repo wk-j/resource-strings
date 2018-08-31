@@ -1,0 +1,1 @@
+- [Strings.resx](https://github.com/dotnet/coreclr/blob/1c47703a3d548e5f3293a11d98747dd83bf429f1/src/System.Private.CoreLib/Resources/Strings.resx)

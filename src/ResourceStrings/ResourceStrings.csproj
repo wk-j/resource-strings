@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>wk.ResourceStrings</PackageId>
+        <Version>0.1.0</Version>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    </PropertyGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Strings.xml" />
+        <EmbeddedResource Include="Hello.txt" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Remove="Strings.xml" />
+        <Content Remove="Hello.txt" />
+    </ItemGroup>
+</Project>
